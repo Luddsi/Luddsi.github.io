@@ -1,0 +1,162 @@
+body {
+    background: url(img/Background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.nav {
+    background-color: rgba(112, 128, 144, 0.712);
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.nav-link {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.623);
+    font-weight: 300;
+}
+
+.nav-link:hover {
+    color: white;
+
+}
+
+
+@keyframes welcome {
+    0% {
+        top: 25%;
+        color: rgba(112, 128, 144, 0.397);
+    }
+}
+
+.flyingtext {
+
+    text-align: center;
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: rgba(49, 49, 49, 0.884);
+    animation-name: welcome;
+    animation-duration: 2s;
+}
+
+
+/*HERE STARTS PROJECTS*/
+
+
+
+.nav-link-project {
+    color: rgba(0, 0, 0, 0.623);
+    transition: 0.3s;
+}
+
+
+.nav-link-project:hover {
+    color: white;
+}
+
+.container-md {
+    margin-top: 5%;
+}
+
+@keyframes project-sections {
+    0% {
+        opacity: 0%;
+    }
+}
+
+.figure {
+    max-width: 360px;
+    animation-name: project-sections;
+    animation-duration: 1s;
+}
+
+
+.coming-soon-pic {
+    opacity: 45%;
+    transition: 0.2s;
+}
+
+.coming-soon-pic:hover {
+    opacity: 100%;
+}
+
+.figure-pixer-project {
+    opacity: 90%;
+    border-style: solid;
+}
+
+.figure-caption {
+    color: rgba(0, 0, 0, 0.623);
+    font-weight: bolder;
+}
+
+
+
+/*PIXER album starts here*/
+
+
+
+.pixer-album-all {
+    margin-top: 20px;
+    max-width: auto;
+    text-align: center;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.pixer-album-pictures {
+    border-radius: 25px;
+    border-style: solid;
+    margin: 8px;
+    max-width: 30%;
+    min-width: 130px;
+
+}
+
+/*ABOUT ME STARTS HERE*/
+
+.clearfix{margin: 40px;}
+
+.about-text{
+background-color: rgba(112, 128, 144, 0.712);
+border-radius: 10px;
+padding: 10px;}
+
+.about-picture{max-width: 300px;
+border-radius: 10px;
+border-style: solid;
+}
+
+@media screen and (max-width: 767px){
+
+    img.about-picture {max-width: 200px;
+        display: block;
+    margin-left: auto;
+margin-right: auto;
+width: 50%;}
+    
+}
+
+/*CONTACT STARTS HERE*/
+
+.flyingtext2 {
+
+    text-align: center;
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: rgba(49, 49, 49, 0.884);
+    animation-name: welcome;
+    animation-duration: 2s
+}
