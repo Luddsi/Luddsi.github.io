@@ -123,26 +123,32 @@ body {
 
 /*ABOUT ME STARTS HERE*/
 
-.clearfix{margin: 40px;}
-
-.about-text{
-background-color: rgba(112, 128, 144, 0.712);
-border-radius: 10px;
-padding: 10px;}
-
-.about-picture{max-width: 300px;
-border-radius: 10px;
-border-style: solid;
+.clearfix {
+    margin: 40px;
 }
 
-@media screen and (max-width: 767px){
+.about-text {
+    background-color: rgba(112, 128, 144, 0.712);
+    border-radius: 10px;
+    padding: 10px;
+}
 
-    img.about-picture {max-width: 200px;
+.about-picture {
+    max-width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+@media screen and (max-width: 767px) {
+
+    img.about-picture {
+        max-width: 200px;
         display: block;
-    margin-left: auto;
-margin-right: auto;
-width: 50%;}
-    
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
 }
 
 /*CONTACT STARTS HERE*/
@@ -158,5 +164,6 @@ width: 50%;}
     width: 100%;
     color: rgba(49, 49, 49, 0.884);
     animation-name: welcome;
-    animation-duration: 2s
+    animation-duration: 2s;
+
 }
